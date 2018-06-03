@@ -1,0 +1,19 @@
+body {
+  height: 800px;
+  width: 100%;
+}
+.grid-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.gridItem {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  float: left;
+  height: 30%;
+  width: 30%;
+  margin: 1%;
+  font-size: 30px;
+  text-align: center;
+}
