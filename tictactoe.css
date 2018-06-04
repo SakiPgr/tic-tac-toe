@@ -1,19 +1,52 @@
-body {
-  height: 800px;
-  width: 100%;
-}
-.grid-container {
+html {
   height: 100%;
-  display: grid;
-  grid-template-columns: auto auto auto;
 }
 
-.gridItem {
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  float: left;
-  height: 30%;
-  width: 30%;
-  margin: 1%;
-  font-size: 30px;
-  text-align: center;
+body {
+  height: 90%;
+  width: 75%;
+  margin: auto; 
+}
+
+/* h1 {
+  height: 10;
+} */
+
+table {
+  width: 80%;
+  height: 90%;
+}
+
+tr {
+  height: 33%;  
+  margin: 0 0;
+}
+
+td {
+  background-color: aquamarine;
+  height: 33%;
+  width: 33%;
+  margin: 0 0;
+}
+
+.row1 {
+  border-bottom: 1px solid black;
+  margin: 0 0;
+}
+
+.row2 {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 0 0;
+}
+
+.row3 {
+  border-top: 1px solid black;
+  margin: 0 0;
+}
+
+.column {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin: 0 0;
 }
