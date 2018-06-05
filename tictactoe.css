@@ -1,52 +1,36 @@
 html {
+  background-color: plum;
   height: 100%;
+  font-family: 'Jua', sans-serif;
 }
 
 body {
-  height: 90%;
+  height: 80%;
   width: 75%;
   margin: auto; 
 }
 
-/* h1 {
-  height: 10;
-} */
+h1 {
+  width: 80%;
+  margin: auto;
+}
 
 table {
+  background-color: rgb(230, 213, 199);
+  border-collapse: collapse;
   width: 80%;
-  height: 90%;
+  height: 80%;
+  margin: auto;
 }
 
 tr {
-  height: 33%;  
-  margin: 0 0;
+  height: 33%;
 }
 
 td {
-  background-color: aquamarine;
-  height: 33%;
-  width: 33%;
-  margin: 0 0;
-}
-
-.row1 {
-  border-bottom: 1px solid black;
-  margin: 0 0;
-}
-
-.row2 {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  margin: 0 0;
-}
-
-.row3 {
-  border-top: 1px solid black;
-  margin: 0 0;
-}
-
-.column {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  margin: 0 0;
+  border: 2px solid black;
+  color: darkcyan;
+  text-align: center;
+  font-size: 20vh;
+  padding: 0;
 }
