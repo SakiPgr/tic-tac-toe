@@ -11,11 +11,18 @@ body {
 }
 
 h1 {
-  width: 525px;
+  /* width: 525px; */
+  text-align: center;
+  margin: auto;
+}
+
+#allIn {
+  width: 60%;
   margin: auto;
 }
 
 table {
+  /* float: left; */
   background-color: rgb(230, 213, 199);
   border-collapse: collapse;
   /* width: 80%;
@@ -35,19 +42,30 @@ td {
   height: 175px;
 }
 
-/* @media all and (min-width: 960px) {
-  body{
-      font-size: 18px;
-  }
-} */
+.side {
+  width: 525px;
+  text-align: center;
+  margin: auto;
+}
+
+#newGame {
+  font-size: 24px;
+  margin: 5px;
+  padding: 3px;
+  background-color: rgb(114, 247, 247);
+}
+
+#turn {
+  margin: 5px;
+  padding: 5px;
+  border: 1px dashed black;
+  background-color: white;
+}
 
 @media all and (max-width: 959px) and (min-width: 600px) {
   table {
       width: 390px;
       height: 390px;
-  }
-    h1 {
-      width: 390px;
   }
 
     td {
@@ -55,21 +73,34 @@ td {
       width: 130px;
       height: 130px;
   }
+
+  .side {
+    width: 390px
+  }
 }
 
 @media all and (max-width: 599px) and (min-width: 320px) {
   table {
     width: 240px;
     height: 240px;
-}
-
-  h1 {
-    width: 240px;
-}
+  }
 
   td {
     font-size: 50px;
     width: 80px;
     height: 80px;
-} 
+  }
+
+  .side {
+    width: 240px
+  }
+
+  #newGame {
+    margin: auto;
+    display: block;
+  }
+
+  #turn {
+    display: block;
+  }
 }

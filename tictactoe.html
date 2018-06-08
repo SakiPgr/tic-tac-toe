@@ -11,23 +11,30 @@
 <body>
   <h1>Tic Tac Toe</h1>
   <br>
-  <table>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </table>
+  <div id="allIn">
+    <table>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <br>
+    <div class="side">
+      <button id="newGame">New Game</button>
+      <span id="turn"><strong>First</strong> players turn</span>
+    </div>
+  </div>
   <script src="tictactoe.js"></script>
 </body>
 </html>
