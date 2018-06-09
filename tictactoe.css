@@ -62,7 +62,7 @@ td {
   background-color: white;
 }
 
-@media all and (max-width: 959px) and (min-width: 600px) {
+@media all and (max-width: 959px) and (min-width: 600px), all and (max-height: 760px) and (min-height: 551px)  {
   table {
       width: 390px;
       height: 390px;
@@ -79,7 +79,7 @@ td {
   }
 }
 
-@media all and (max-width: 599px) and (min-width: 320px) {
+@media all and (max-width: 599px) and (min-width: 320px), all and (max-height: 550px) {
   table {
     width: 240px;
     height: 240px;
