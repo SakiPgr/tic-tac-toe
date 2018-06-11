@@ -10,3 +10,5 @@ I don't think that there is much to be said at this point. Just as the name says
 09 June 2018 - Due to lack of time added only some media querys concerning height adjustments.
 
 10 June 2018 - Some additions to the logic of the game
+
+11 June 2018 - Added the win conditions. Need to wrap it up
