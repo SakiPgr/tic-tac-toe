@@ -12,3 +12,5 @@ I don't think that there is much to be said at this point. Just as the name says
 10 June 2018 - Some additions to the logic of the game
 
 11 June 2018 - Added the win conditions. Need to wrap it up
+
+15 June 2018 - Finished at last.

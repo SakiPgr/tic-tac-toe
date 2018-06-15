@@ -67,7 +67,13 @@ td {
 
 #winner {
   display:inline-block;
-  width: 50px;
+  width: 60px;
+  text-align: right;
+}
+
+.visible {
+  text-align: left;
+  display: none;
 }
 
 @media all and (max-width: 959px) and (min-width: 600px),
